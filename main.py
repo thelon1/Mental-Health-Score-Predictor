@@ -23,12 +23,12 @@ app.add_middleware(
 # First pydantic model
 class studentData(BaseModel):
     age                         : int  =   Field(..., ge=10, le=100)
-    gender                      :     Literal(['Male', 'Female'])
+    gender                      :Literal['Male', 'Female']
     country                     : str
-    academic_level              : Literal(['Undergraduate', 'Graduate', 'High School'])
-    most_used_platform          : Literal(['Facebook', 'LinkedIn', 'Instagram', 'Snapchat' ,
-                                  'Twitter', 'YouTube', 'TikTok', 'LINE', 'KakaoTalk', 'VKontakte', 'WhatsApp', 'WeChat' ])   
-    purpose_of_use              : Literal(['Netwroking', 'Education', 'Entertainment', 'News'])
+    academic_level              : Literal['Undergraduate', 'Graduate', 'High School']
+    most_used_platform          : Literal['Facebook', 'LinkedIn', 'Instagram', 'Snapchat' ,
+                                  'Twitter', 'YouTube', 'TikTok', 'LINE', 'KakaoTalk', 'VKontakte', 'WhatsApp', 'WeChat' ]
+    purpose_of_use              : Literal['Netwroking', 'Education', 'Entertainment', 'News']
     avg_daily_usage_hours       : float = Field(..., ge=0, le=24)
     daily_unlocks               : int   = Field(..., ge=0)
     study_hours                 : int   = Field(..., ge=0, le=24)
