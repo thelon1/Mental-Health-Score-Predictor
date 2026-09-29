@@ -60,7 +60,7 @@ def Predict(data: studentData):
                 "Academic_Level": data.academic_level,
                 "Most_Used_Platform": data.most_used_platform,
                 "Purpose_Of_Use": data.purpose_of_use,
-                "Avg_Daily_Usage_Hours": data.avg_daily_usage_hour,
+                "Avg_Daily_Usage_Hours": data.avg_daily_usage_hours,
                 "Daily_Unlocks": data.daily_unlocks,
                 "Study_Hours": data.study_hour,
                 "Physical_Activity_Hours": data.physical_activity_hours,
