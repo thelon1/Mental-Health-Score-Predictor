@@ -44,7 +44,7 @@ class studentData(BaseModel):
 #Describe what we want to send back 
 
 class PredictionResponse(BaseModel):
-    predicated_mental_health_score: float  
+    predicted_mental_health_score: float  
 
 # Creating GET endpoint
 @app.get("/")
