@@ -249,5 +249,5 @@ This project is for **educational and informational purposes only**. It is not a
 
 ## Author
 
-**[Your Name]**
-GitHub: [@your-username](https://github.com/your-username) · LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+**[ROHIR HIRALAL WAMANE]**
+GitHub: https://github.com/thelon1 · LinkedIn: https://www.linkedin.com/in/rohitwamane/
