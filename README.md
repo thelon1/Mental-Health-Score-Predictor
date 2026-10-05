@@ -7,7 +7,7 @@
 
 A full-stack machine learning project that predicts a student's **mental health score (0-10)** from their social media usage, sleep, study, physical activity, and stress level. It includes the model training notebook, a FastAPI backend, and a web frontend.
 
-- **Live demo:** [add your frontend link here]
+- **Live demo:** https://mental-health-score-07a5.onrender.com
 - **API:** https://mental-health-score-analyser.onrender.com
 - **Interactive API docs:** https://mental-health-score-analyser.onrender.com/docs
 
@@ -249,5 +249,5 @@ This project is for **educational and informational purposes only**. It is not a
 
 ## Author
 
-**[ROHIR HIRALAL WAMANE]**
+**ROHIT HIRALAL WAMANE**
 GitHub: https://github.com/thelon1 · LinkedIn: https://www.linkedin.com/in/rohitwamane/
